@@ -510,3 +510,26 @@ document.addEventListener('click', (e) => {
         sidebar.classList.remove('active');
     }
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById("menu-button");
+    const sidebar = document.querySelector(".sidebar");
+    const closeButton = document.getElementById("close-button");
+
+    // Show sidebar when clicking the menu button
+    menuButton.addEventListener("click", function () {
+        sidebar.classList.add("active");
+    });
+
+    // Hide sidebar when clicking the close button
+    closeButton.addEventListener("click", function () {
+        sidebar.classList.remove("active");
+    });
+});
+
+function toggleMenu() {
+    var menu = document.getElementById("mobile-menu");
+    menu.classList.toggle("show");
+}
