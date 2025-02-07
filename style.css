@@ -85,6 +85,9 @@ nav {
     max-width: 1400px;
     margin: 0 auto;
 }
+.menu-toggle{
+display:none;
+}
 
 /* Logo Animation */
 .logo {
