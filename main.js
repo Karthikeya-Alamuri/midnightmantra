@@ -13,7 +13,7 @@ const events = [
             '	Round 2: Top 50 Accuracy and Speed Challenge o The top 50 participants from Round 1 will compete in a similar typing challenge. o Both accuracy and speed will be evaluated, with accuracy given higher weightage.',
             '	Round 3: Top 10 Final Challenge o The top 10 participants from Round 2 will compete in the final round. o A more complex passage will be provided, and the final score will heavilyemphasize accuracy along with speed',
         ],
-        Organisers: 'Varada sandeep', 
+        Organisers:['Varada Sandeep -3 rd year cse ', 'Somineni Pavithra -3 rd year cse '],
         timing: '10:30AM - 11:30AM',
         Whatsapp_Group_Link:  'https://chat.whatsapp.com/CtFBqZVWVGl2OReofBQnSQ',
     },
@@ -29,7 +29,7 @@ const events = [
             '	Finalists  will test technical knowledge through pictorial representations of computer science concepts.',
             ,
         ],
-        Organisers: 'R.Dhanush',
+        Organisers:['Preetham Upputuri-3 rd year cse  ', 'R.Dhanush-3 rd year cse  '],
         timing: '2:00 PM - 3:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/GPFdoKDns9Q5re3iJbLGpN',
     },
@@ -45,7 +45,7 @@ const events = [
             '	Participants must match the layout, colors, and spacing as closely as possible. Text content should be replicated exactly as given in the reference page.',
             
         ],
-        Organisers: 'B.Vikas Reddy',
+        Organisers:['B.Vikas Reddy -3 rd year cse ', 'K.Raghavendra Reddy-3 rd year cse  '],
         timing: '10:30AM - 11:30AM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/IjlaE4u6KmbC5xYyLVyPpY',
     },
@@ -61,7 +61,7 @@ const events = [
             '		Each theme will have an associated problem statement, and participants must base their poster on the given problem.',
             '		6.	Teams are allowed to have up to two members; single participation is also permitted.Plagiarsm or copying will result in immediate disqualification.',
         ],
-        Organisers: 'P.V.SASIBHUSHAN RAJU ',
+        Organisers:['P.V.SASIBHUSHAN RAJU-3 rd year cse   ', 'B.SWAPNA MADHURI -3 rd year cse  '],
         timing: '11:30AM - 1:00PM',
         Whatsapp_Group_Link: ' https://chat.whatsapp.com/KdFOGx7mpMKGQySRFHVuIg',
     },
@@ -77,7 +77,7 @@ const events = [
             '	Marks are allotted based on the code accuracy and the time taken by them. ',
             '	The team with the highest marks wins.',
         ],
-        Organisers: 'Dhivya SV ',
+        Organisers:['Dhivya SV -2nd year cse ', 'A Mahtheline Rose -2nd year cse '],
         timing: '11:30AM - 1:00PM',
         Whatsapp_Group_Link:'https://chat.whatsapp.com/JrNP1NABjYR0XdjPYDQhLF',
     },
@@ -94,7 +94,7 @@ const events = [
             '	Decision Finality – Judges decisions are final and cannot be contested.',
             '	Code of Conduct – Participants must maintain professionalism and adhere to ethical ',
         ],
-        Organisers: 'GOKULAKANNAN V',
+        Organisers:['GOKULAKANNAN V -2nd year cse  ', '	M.P. SUDARSAN -2nd year cse '],
         timing: '10:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/BdTjURSkAd6CYpztS3wLxq',
     },
@@ -111,7 +111,7 @@ const events = [
             'The event consists of 2 rounds, each with increasing difficulty and chaos:	','Round 1 (60 minutes) – Coding challenge with mild disturbances.','	Round 2 (45 minutes) – Advanced coding challenge with extreme chaos',
 
         ],
-        Organisers: 'v.Hema sarayu',
+        Organisers:['v.Hema sarayu-3 rd year cse   ', '	J.A.Bhavya Reddy-3 rd year cse  '],
         timing: '11:30 AM - 1:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/IS1fWp7yNHa44c6TMstSxH',
     },
@@ -128,7 +128,7 @@ const events = [
             '	Each team has a maximum of 1 minutes to guess the word.',
             '8.	Each team should have maximum of 2 members.',
         ],
-        Organisers: 'S.Ganesh Raj ',
+        Organisers:['S.Ganesh Raj -2nd year cse ', '	Rahul S -2nd year cse          '],
         timing: '11:30 AM - 1:00 PM',
        Whatsapp_Group_Link:'https://chat.whatsapp.com/Gxo4mOPMbEQ4OyPNPQQejU',
     },
@@ -144,10 +144,12 @@ const events = [
             '	Provide clear and concise answers .',
             '	Do not share solutions or details with others during the event.',
         ],
-        Organisers: '	K Arun Kishore            ',
+        Organisers: ['K Arun Kishore -2nd year cse', 'J Yogesh -2nd year cse                     '],
         timing: '10:30 AM - 11:30 AM',
         Whatsapp_Group_Link:'https://chat.whatsapp.com/EroTeg2lCluEfZgA5CixOA',
+        
     }
+    
 ,
 {
     id: 'Prompt-wars',
@@ -161,7 +163,7 @@ const events = [
         '	Judges will evaluate entries based on creativity, coherence, and relevance.',
         '	No AI tools or external assistance is allowed during the challenge.',
     ],
-    Organisers: '	Ganesh Balaji            ',
+    Organisers: '	Ganesh Balaji -2nd year cse           ',
     timing: '11:30 AM - 1:00 PM',
     Whatsapp_Group_Link:'https://chat.whatsapp.com/DJhFKJvVzZ8CFsn1IM7xuo',
 }
@@ -178,7 +180,7 @@ const events = [
         '		Provide clear and concise answers, explaining your approach if required.',
         '		Do not share solutions or details with others during the event.',
     ],
-    Organisers: '	Sharon Varghese                       ',
+    Organisers: ['	Sharon Varghese -2nd year cse ',' Shada ali khuzhikatil  -2nd year cse    ', '	Rushdha V -2nd year cse','	Sivani P -2nd year cse    '],
     timing: '10:30 AM - 1:00 PM',
     Whatsapp_Group_Link:'https://chat.whatsapp.com/Hj1gGIuceXl33jFUJNrU5g',
 }
@@ -196,7 +198,7 @@ const events = [
             'Participants must come  with their own tracks.',
             'Judges decision wil be final.',
         ],
-        Organisers: 'S.Sarika         ',
+        Organisers: ['S.Sarika -2nd year cse        ', 'M.Indrajith  -2nd year cse                     '],
         timing: '2:00 PM - 3:00 PM',
        Whatsapp_Group_Link:'https://chat.whatsapp.com/E2BPQ4OLadl91MbbdgdtyF',
     },
@@ -212,7 +214,7 @@ const events = [
             'Walk  with Dance  and showcase your moves within duration: 60 secs',
             'You can use properties as well.',
         ],
-        Organisers: 'Ch. komala sri ',
+        Organisers: ['Ch. komala sri -3 rd year cse   ', 'R.Thanmayee-3 rd year cse         '],
         timing: '2:00 PM - 3:00 PM',
         Whatsapp_Group_Link: 'https://chat.whatsapp.com/G2KEkKTcqvvDujWyHIn2Vz',
     },
@@ -436,7 +438,10 @@ function showEventDetails(eventId) {
             <div class="modal-info">
                 <div>
                     <h3>Organisers: </h3>
-                    <p>${event.Organisers}</p>
+                    <p>${event.Organisers[0]}</p>
+                    <p>${event.Organisers[1]}</p>
+                    
+                    
                 </div>
                 <div>
                     <h3>Timing</h3>
