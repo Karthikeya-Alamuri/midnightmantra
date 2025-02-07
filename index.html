@@ -10,7 +10,9 @@
 <body>
     <header>
         <nav>
-               
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
             
             <div class="logo">
                 <span class="logo-text">T</span>
@@ -21,7 +23,8 @@
                 <span class="logo-text">A</span>
                 <span class="logo-text">Z</span>
             </div>
-            <div class="nav-links">
+            
+            <div class="nav-links" id="mobile-menu">
                 <div class="dropdown">
                     <a href="#events" class="dropdown-trigger">Technical Events</a>
                     <div class="dropdown-content">
@@ -33,7 +36,6 @@
                         <a href="#events" onclick="showEventDetails('codechaos')">Codechaos</a>
                         <a href="#events" onclick="showEventDetails('techtrivia')">TechTrivia</a>
                         <a href="#events" onclick="showEventDetails('clueless-coder')">The Clueless Coder</a>
-                        
                         <a href="#events" onclick="showEventDetails('Prompt-wars')">PromptWars</a>
                         <a href="#events" onclick="showEventDetails('BrainByte')">BrainByte</a>
                     </div>
@@ -44,16 +46,14 @@
                         <a href="#events" onclick="filterEvents('non-technical')">All Non-Technical Events</a>
                         <a href="#events" onclick="showEventDetails('rhythm-soul')">Rhythm of Soul</a>
                         <a href="#events" onclick="showEventDetails('classy-genz')">ClassyGenz</a>
-                        
-                        
                     </div>
                 </div>
                 <div class="dropdown">
                     <a href="#" class="dropdown-trigger">Coordinators</a>
                     <div class="dropdown-content">
-                        <a href="#" >A.Karthikeya Manikanta</a>
-                        <a href="#" >G Dillep</a>
-                        <a href="#" >HONEYSH V</a>
+                        <a href="#">A.Karthikeya Manikanta</a>
+                        <a href="#">G Dillep</a>
+                        <a href="#">HONEYSH V</a>
                         <a href="#">SRI DHANAM M K</a>
                         <a href="#">K Deepika</a>
                         <a href="#">Vishnu Vardan G</a>
@@ -62,18 +62,18 @@
                 <div class="dropdown">
                     <a href="#" class="dropdown-trigger">Contact Us</a>
                     <div class="dropdown-content">
-                        <a href="tel:+91">Name:A.Karthikeya Manikanta</a>
+                        <a href="tel:+91">Name: A.Karthikeya Manikanta</a>
                         <a href="tel:+91 7013754319">Phone: 7013754319</a>
                         <a href="mailto:vtu23826@veltech.edu.in">Email: vtu23826@veltech.edu.in</a>
-                        <a href="tel:+91">Name:G.Dillep</a>
+                        <a href="tel:+91">Name: G.Dillep</a>
                         <a href="tel:+91 770263554">Phone: 7702638554</a>
                         <a href="mailto:vtu22957@veltech.edu.in">Email: vtu22957@veltech.edu.in</a>
                     </div>
                 </div>
                 <a href="https://forms.gle/registerform" target="_blank" class="register-button">Register Now</a>
             </div>
-      
         </nav>
+        
     </header>
 
     <div id="particles-js"></div>
