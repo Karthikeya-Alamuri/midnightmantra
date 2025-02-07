@@ -10,55 +10,70 @@
 <body>
     <header>
         <nav>
-            <!-- Mobile Menu Button -->
-            <div class="mobile-menu">
-                <button id="menu-button">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-
-            <!-- Logo -->
+               
+            
             <div class="logo">
-                <span class="logo-text">TANTRAZ</span>
+                <span class="logo-text">T</span>
+                <span class="logo-text">A</span>
+                <span class="logo-text">N</span>
+                <span class="logo-text">T</span>
+                <span class="logo-text">R</span>
+                <span class="logo-text">A</span>
+                <span class="logo-text">Z</span>
             </div>
-
-            <!-- Regular Nav Links -->
             <div class="nav-links">
                 <div class="dropdown">
                     <a href="#events" class="dropdown-trigger">Technical Events</a>
                     <div class="dropdown-content">
-                        <a href="#events">All Technical Events</a>
-                        <a href="#events">Decode Tech</a>
-                        <a href="#events">UI Magician</a>
-                        <a href="#events">Jumbled Code</a>
+                        <a href="#events" onclick="filterEvents('technical')">All Technical Events</a>
+                        <a href="#events" onclick="showEventDetails('decode-tech')">Decode Tech</a>
+                        <a href="#events" onclick="showEventDetails('ui-magician')">UI Magician</a>
+                        <a href="#events" onclick="showEventDetails('jumbled-code')">Jumbled Code</a>
+                        <a href="#events" onclick="showEventDetails('tech-fusion')">Tech Fusion</a>
+                        <a href="#events" onclick="showEventDetails('codechaos')">Codechaos</a>
+                        <a href="#events" onclick="showEventDetails('techtrivia')">TechTrivia</a>
+                        <a href="#events" onclick="showEventDetails('clueless-coder')">The Clueless Coder</a>
+                        
+                        <a href="#events" onclick="showEventDetails('Prompt-wars')">PromptWars</a>
+                        <a href="#events" onclick="showEventDetails('BrainByte')">BrainByte</a>
                     </div>
                 </div>
                 <div class="dropdown">
                     <a href="#events" class="dropdown-trigger">Non-Technical Events</a>
                     <div class="dropdown-content">
-                        <a href="#events">All Non-Technical Events</a>
-                        <a href="#events">Rhythm of Soul</a>
-                        <a href="#events">ClassyGenz</a>
+                        <a href="#events" onclick="filterEvents('non-technical')">All Non-Technical Events</a>
+                        <a href="#events" onclick="showEventDetails('rhythm-soul')">Rhythm of Soul</a>
+                        <a href="#events" onclick="showEventDetails('classy-genz')">ClassyGenz</a>
+                        
+                        
                     </div>
                 </div>
-                <a href="#coordinators">Coordinators</a>
-                <a href="#contact">Contact Us</a>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">Coordinators</a>
+                    <div class="dropdown-content">
+                        <a href="#" >A.Karthikeya Manikanta</a>
+                        <a href="#" >G Dillep</a>
+                        <a href="#" >HONEYSH V</a>
+                        <a href="#">SRI DHANAM M K</a>
+                        <a href="#">K Deepika</a>
+                        <a href="#">Vishnu Vardan G</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">Contact Us</a>
+                    <div class="dropdown-content">
+                        <a href="tel:+91">Name:A.Karthikeya Manikanta</a>
+                        <a href="tel:+91 7013754319">Phone: 7013754319</a>
+                        <a href="mailto:vtu23826@veltech.edu.in">Email: vtu23826@veltech.edu.in</a>
+                        <a href="tel:+91">Name:G.Dillep</a>
+                        <a href="tel:+91 770263554">Phone: 7702638554</a>
+                        <a href="mailto:vtu22957@veltech.edu.in">Email: vtu22957@veltech.edu.in</a>
+                    </div>
+                </div>
                 <a href="https://forms.gle/registerform" target="_blank" class="register-button">Register Now</a>
             </div>
+      
         </nav>
-
-        <!-- Sidebar Menu -->
-        <div class="sidebar">
-            <button id="close-button">
-                <i class="fas fa-times"></i>
-            </button>
-            <ul>
-                <li><a href="#events">Technical Events</a></li>
-                <li><a href="#events">Non-Technical Events</a></li>
-                <li><a href="#coordinators">Coordinators</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </div>
     </header>
 
     <div id="particles-js"></div>
@@ -71,13 +86,13 @@
     <main class="hero">
         <div class="hero-content">
             <div class="logo-container">
-                <div class="logo-letter">T</div>
-                <div class="logo-letter">A</div>
-                <div class="logo-letter">N</div>
-                <div class="logo-letter">T</div>
-                <div class="logo-letter">R</div>
-                <div class="logo-letter">A</div>
-                <div class="logo-letter">Z</div>
+                <div class="logo-letter" data-text="T">T</div>
+                <div class="logo-letter" data-text="A">A</div>
+                <div class="logo-letter" data-text="N">N</div>
+                <div class="logo-letter" data-text="T">T</div>
+                <div class="logo-letter" data-text="R">R</div>
+                <div class="logo-letter" data-text="A">A</div>
+                <div class="logo-letter" data-text="Z">Z</div>
             </div>
             <div class="year-container">
                 <span class="year-text">2</span>
@@ -93,14 +108,47 @@
                 </a>
             </div>
         </div>
+
+        <div class="floating-elements">
+            <div class="tech-element" style="--delay: 0s">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="tech-element" style="--delay: 2s">
+                <i class="fas fa-microchip"></i>
+            </div>
+            <div class="tech-element" style="--delay: 4s">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="tech-element" style="--delay: 6s">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="tech-element" style="--delay: 8s">
+                <i class="fas fa-vr-cardboard"></i>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to Discover</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
     </main>
 
     <section id="events">
         <h2>Our Events</h2>
         <div class="events-grid" id="events-container">
-            <!-- Cards will be dynamically inserted here -->
+            <!-- Events will be added here dynamically -->
         </div>
     </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-body"></div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="main.js"></script>
