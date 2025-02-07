@@ -68,7 +68,7 @@ const events = [
     {
         id: 'Pop n hunt',
         type: 'technical',
-        title: 'Pop n hunt',
+        title: 'Pop N Hunt',
         image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80',
         description: 'Hunting the accurate code from the given treasure box for the given problem statements.',
         rules: [
