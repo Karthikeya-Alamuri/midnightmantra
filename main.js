@@ -101,7 +101,7 @@ const events = [
     {
         id: 'STREET CODE',
         type: 'technical',
-        title: 'STREET CODE ',
+        title: 'Street Coding ',
         image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80',
         description: 'Street code is an event where programmers and coders participate in coding challenges while being exposed to external distractions like loud noises, random music, and other disturbances. ',
         rules: [
